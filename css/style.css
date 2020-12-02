@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+.container ul{
+    list-style: none ;
+}
+.container ul li{
+    display: inline-block;
+}
+.container ul li a{
+    background-color:red;
+    color:white;
+    padding: 25px;
+    font-size: 15px ;
+    border-radius: 20px;
+}
+.container ul li a:hover{
+    background-color: indigo;
+    color: black;
+    border-radius: 50%;
+    transition: 0.3s;
+}
